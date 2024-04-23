@@ -1,0 +1,87 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.update-first-con{
+    background-color:rgb(1, 1, 20);
+    height:23vh;
+}
+.update-first-image{
+    height:70px;
+    width:230px;
+    margin-left:180px;
+}
+.update-first-head{
+    color:#ffffff;
+    text-align:center;
+    font-size:35px;
+
+}
+.update-first-para{
+    color:#ffffff;
+    text-align:center;
+    padding-top:10px;
+    font-size:20px;
+}
+.update-second-image{
+    height:800px;
+    width:650px;
+    text-align:center;
+}
+.update-second-para{
+    color:rgb(121, 118, 118);
+}
+.update-second-para1{
+    background-color:rgb(205, 203, 203);
+    height:25px;
+    width:150px;
+    border-radius:10px;
+    text-align:center;
+    margin:15px;
+}
+.update-second-con1{
+    display:flex;
+    
+}
+.update-second-para2{
+    font-size:18px;
+    color:rgb(14, 14, 14);
+    padding-bottom:30px;
+
+}
+.update-second-span{
+    color:black;
+    
+    font-weight:600;
+}
+.update-second-con{
+    border:2px solid rgb(208, 203, 203);
+    padding:20px;
+    margin:100px;
+    border-radius:15px;
+    
+    
+    
+}
+.update-second-image-con{
+    display:flex;
+    justify-content:center;
+}
+.update-para-container{
+    padding:25px;
+}
+.update-second-head2{
+    padding-bottom:15px;
+}
+.view-btn{
+    color:rgb(65, 64, 64);
+    border:1px solid rgb(87, 86, 86);
+    border-radius:8px;
+    height:35px;
+    width:120px;
+}
+.view-btn-con{
+    display:flex;
+    justify-content:center;
+}
