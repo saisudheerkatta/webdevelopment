@@ -1,0 +1,1346 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.anchor-element{
+    text-decoration: none;
+    color:#ffffff;
+}
+#drop-item{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right:25px;
+    color:rgb(29, 28, 28);
+    font-weight:500;
+    font-size:18px;
+    text-decoration:none;
+    list-style-type:none;
+    
+
+}
+.dropdown-item{
+    padding:10px;
+    margin-right:2px;
+}
+
+.first-div{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .first-div{
+        margin-left:0px;
+        
+    }
+}
+.second-div{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .second-div{
+        display:none;
+        margin-left:5px;
+         
+    }
+}
+
+.eng-drop{
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+.image-part{
+    margin-left:25px;
+}
+@media screen and (max-width:426px){
+    .image-part{
+        height:80px;
+        width:100px;
+        margin-left:10px;
+    }
+}
+    
+
+.flag-image{
+    height:40px;
+    width:40px;
+    padding-right:10px;
+}
+.english-name{
+    padding-top:10px;
+    font-size:15px;
+}
+.second-part{
+    margin-right:100px;
+}
+@media screen and (max-width:426px){
+    .second-part{
+        margin-right:20px;
+    }
+}
+.nav-1-div{
+    display:flex;
+    flex-direction: row;
+    
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .nav-1-div{
+        margin-left:5px;
+    }
+}
+@media screen and (max-width:426px){
+    .nav-1-div>li>a{
+        display:none;
+    }
+}
+.one-con{
+    display:flex;
+    flex-direction:row;
+    
+    height:200px;
+}
+.two-con{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:25px;
+    height:400px;
+}
+.three-con{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:25px;
+    height:300px;
+}
+.product-container{
+    border:1px solid rgba(137, 133, 133, 0.447);
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+}
+.product-image{
+    height:230px;
+    width:250px;
+}
+.product-name{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    font-family: "Roboto";
+}
+.product-para{
+    font-size:14px;
+    color:rgb(140, 139, 139);
+
+}
+#color{
+    color:rgb(228, 69, 154);
+    padding-bottom:20px;
+    font-weight:500;
+    font-size:20px;
+}
+#color-1{
+    font-weight:500;
+    color:black;
+    padding-bottom:25px;
+    font-size:15px;
+
+}
+.nav-btn{
+    color:#ffffff;
+    background-color:purple;
+    border-radius:20px;
+    border-width:0px;
+    padding:10px;
+    height:45px;
+    width:170px;
+    margin-left:400px;
+}
+@media screen and (max-width:426px){
+    .nav-btn{
+        margin-left:150px;
+        height:35px;
+        width:100px;
+        padding-bottom:20px;
+        margin-bottom:25px;
+        
+        
+    }
+}
+.nav-line{
+    color:rgba(161, 159, 159, 0.87);
+    
+}
+@media screen and (max-width:426px){
+    .nav-line{
+        display:none;
+    }
+}
+.footer-container{
+    background-color:rgb(21, 38, 38);
+    background-size:cover;
+    height: 800px;
+    
+
+}
+@media screen and (max-width:426px){
+    .footer-container{
+    
+        height:2200px;
+        margin-top: 50px;
+     
+
+    }
+    
+    
+}
+@media screen and (min-width:426px) and (max-width:769px){
+    .footer-container{
+        width:1000px;
+        margin-top: 100px;   
+    }
+    .second-div>ul>li>a{
+        font-size:30px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1025px){
+    .footer-container{
+        width:1580px;
+    }
+    #drop-item{
+        font-size:30px;
+       
+    }
+}
+.stay-header{
+    color:white;
+    font-weight:500;
+    font-size:30px;
+    height:50vh;
+    text-align:center;
+    
+    
+}
+
+.footer-con>h1{
+color: #ffffff;
+text-align:center;
+padding-top:30px;
+
+
+}
+.footer-con>input{
+    margin-left: 600px;
+    
+    padding:8px;
+    border-radius:20px;
+    border-width:0px;
+
+}
+@media screen and (max-width:426px){
+    .footer-con>input{
+        margin-left:0px;
+    }
+}
+.footer-con>button{
+    background-color:rgb(195, 43, 226);
+    color:#ffffff;
+    margin-left:15px;
+    border-width:0px;
+    border-radius:20px;
+    padding:10px;
+}
+.list-container{
+    display:flex;
+    color:#ffffff;
+    padding:20px;
+}
+@media screen and (max-width:426px){
+    .list-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-left:0px;
+    }
+}
+.unorder-list{
+    list-style-type:none;
+    padding-bottom:20px;
+    
+}
+@media screen and (max-width:426px){
+    .unorder-list{
+        align-items:center;
+        padding-right:120px;
+    }
+}
+.unlist-item{
+   padding-bottom:15px;
+   font-size:16px;
+}
+.unlist-item:hover{
+    color:rgb(247, 36, 173);
+}
+.top-list-item{
+    padding-bottom:18px;
+    font-size:22px;
+    font-weight:500;
+}
+
+.hr-line{
+    margin-left:50px;
+    margin-right:50px;
+    color:rgb(203, 199, 199);
+}
+@media screen and (max-width:426px){
+    .hr-line{
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
+.last-logo{
+    padding:45px;
+}
+@media screen and (max-width:426px){
+    .last-logo{
+        padding:5px;
+    }
+}
+.last-con{
+    display:flex;
+    color:#ffffff;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+
+
+}
+@media screen and (max-width:426px){
+    .last-con{
+        display:flex;
+        flex-direction:column;
+        margin-left:5px;
+        margin-right:5px;
+
+    }
+}
+.last-class{
+    margin-left:30px;
+}
+@media screen and (max-width:426px){
+    .last-class{
+        margin-left:10px;
+    }
+}
+
+
+
+/* Laptop View */
+@media screen and (min-width:426px) and (max-width:1025px){
+
+}
+
+
+/* webpage css */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.d1{
+    display: flex;
+    display: flex;
+    height: 650px;
+    background-image: url(/assets/uploads/images/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hy{
+    color: #364152;
+    font-size: 54px;
+    margin-top: 230px;
+    margin-left: 200px;
+    
+}
+.p12{
+    font-size: 24px;
+    color: #475467;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 90px;
+}
+.d17>img{
+    margin-top: 140px;
+    margin-right: 100px;
+    height: 500px;
+    width: 500px;
+    
+}
+.bl{
+    color: white;
+    background-color:#ac3378;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.p13{
+    font-size: 20px;
+    color: #364152;
+    margin-top: 30px;
+    text-align: center;
+}   
+.c {
+    margin-left: 120px;
+    height:100px;
+    width: 1200px;
+    margin-left: 200px;
+}
+.sz{
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(52, 49, 49);
+}
+.oo{
+    display: flex;
+    margin-left:500px;
+    margin-top:20px;
+    margin-bottom:25px;
+
+    
+}
+
+.uy{
+    display:flex;
+    margin-right:25px;
+}
+.ii{
+    background-image: url(/assets/uploads/images/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    margin-left: 150px;
+}
+.lo>img{
+    height: 400px;
+    width: 400px;
+}
+.lo1>img{
+    height: 550px;
+    width: 400px;
+    padding-bottom: 250px;
+    margin-left: 70px; 
+}
+.lo1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    background-color: white;
+    height: 360px;
+    width: 500px;
+    border: 1px  white;
+    border-radius: 0px 10px 10px 0px;
+}
+.mm{
+    display: flex;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.mr{
+    
+    display:flex;
+    flex-direction:column;
+    margin-left:-120px;
+    margin-right:150px;
+}
+.mr>img{
+    height:400px;
+    width:400px;
+}
+.mr>h3{
+    font-size:35px;
+}
+.mr>p{
+    font-size:25px;
+}
+.yt{
+    color: rgb(52, 49, 49);
+    font-size: 20px;
+}
+.yt1{
+    padding-top: 20px;
+}
+.yt2{
+    color: purple;
+    padding-top: 20px;
+}
+.mr1{
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+}
+.mr2{
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.er1{
+    color: purple;
+    text-align: center;
+    font-size: 18px;
+}
+.er2{
+    text-align: center;
+    font-size: 25px;
+}
+.lk{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.lk>img{
+    height: 100px;
+    width: 100px;
+    padding-right: 20px;
+}
+.techie{
+    display:flex;
+}
+.lk{
+    margin-left:600px ;
+}
+.lk2{
+    margin-bottom: 20px;
+    
+}
+.bn{
+    margin-top: 20px;
+    margin-left: 500px;
+    border-radius: 10px;
+    width: 600px;
+}
+.N12{
+    display: flex;
+    height: 880px;
+
+    
+    background-image: url(/assets/uploads/images/images\ \(1\).jpeg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: right;
+    padding-top: 100px;
+
+}
+.N1{
+    margin-left:140px;
+    display: flex;
+
+
+}
+.n1{
+color:#ac3378;
+margin-left: 150px;
+margin-top: 250px;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.n2{
+    margin-bottom: 26px;
+margin-left: 150px;
+margin-right: 40px;
+font-size: 28px;
+width: 500px;
+
+}
+.n3{
+border:1px solid #ac3378;
+background-color:#ac3378;
+color: white;
+border-radius: 24px;
+height: 44px;
+width: 190px;
+font-size: 16px;
+margin-left: 150px;
+font-weight: 600;
+
+}
+.I2{
+    height: 230px;
+    width: 300px;
+    background-color:#ffffff;
+    border-radius:22px;
+    margin-left:10px;
+    margin-bottom: 30px;
+    border: rgba(172, 172, 172, 0.4) solid 2px;
+}
+
+.I2>img{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+
+.N2{
+    display: flex;
+}
+.n6{
+
+    display:flex;
+    flex-direction:column;
+}
+
+.img1{
+    width: 100px;
+    height: 72px;
+    margin-top: 20px;
+}
+
+.i4{
+    font-size: 26px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.oi{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.ty>img{
+    margin-left: 120px;
+    height:100px;
+    width: 1200px;
+    margin-left: 200px;
+}
+.tech-box{
+    display: flex;
+    background-color: rgba(246, 210, 230, 0.4);
+    width: 950px;
+    height: 450px;
+    margin-left: 290px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.tech-h5{
+    margin-top: 145px;
+    margin-left: 55px;
+    color: #364152; 
+    margin-right: 100px;
+    font-size: 30px;
+
+}
+
+.tech-p6{
+    color: #475467; 
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.tech-p7{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 60px;
+    color: #344054;
+    font-weight: 500;
+
+}
+
+.tech-ph{
+    width: 180px;
+    height: 26px;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+   
+}
+.tech-ph:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.tech-py{
+    width: 180px;
+    height: 26px;
+    margin-left: 28px;
+    
+    padding-left: 8px;
+    padding-bottom:10px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: rgba(159,159,255, 0.6) 1px solid;   
+}
+.tech-py:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.tech-pos{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #344054;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.tech-bar{
+    margin-left: 12px;
+    width: 392px;
+    height: 26px;
+    font-size: 12px;
+    margin-top: 8px;
+    border-radius: 3px;
+    padding-left: 8px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+}
+.tech-bar:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.tech-opt{
+    margin-left: 10px;
+    height: 24px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+}
+.tech-opt:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.tech-bat{
+    width: 344px;
+    height: 26px;
+    font-size: 12px;
+    margin-top: 8px;
+    border-radius: 3px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+    padding-left: 10px;
+    
+}
+
+
+.tech-bat:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.tech-bt1{
+    width: 100px;
+    background-color: #ac3378;
+    color: white;
+    margin-top: 15px;
+    margin-left: 300px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-weight:600;
+}
+.whatsapp-p18{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 1px;
+}
+.whatsapp-main0{
+    display: flex;
+}
+.whatsapp-p8{
+    font-size: 19px;
+    padding-right: 40px;
+    font-weight: 600;
+    margin-bottom: 38px;
+    color: #101828;
+}
+
+.whatsapp-p9{
+    color: #475467;
+    font-size: 13px;
+    margin-bottom: 31px;
+}
+
+.whatsapp-p10{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.whatsapp-p11{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    margin-top: 1px;
+    color: #101828;
+}
+
+.whatsapp-p12{
+    color: #475467;
+    font-size: 13px;
+    padding-right: 5px;
+    margin-bottom: 32px;
+}
+
+.whatsapp-p13{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    color: #101828;
+}
+
+.whatsapp-p14{
+    color: #475467;
+    font-size: 13px;
+    padding-right: 5px;
+    margin-bottom: 32px;
+
+}
+.whatsapp-p15{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.whatsapp-p16{
+    font-size: 28px;
+    margin-left: 80px;
+    font-weight: 600;
+    margin-right: 1100px;
+    color: #101828;
+}
+
+.whatsapp-p17{
+    color: #475467;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 80px;
+}
+.whatsapp-img6{
+    width: 298px;
+    height: 166px;
+
+}
+
+.whatsapp-img7{
+    width: 13px;
+    height: 15px;
+    margin-left: 11px;
+
+}
+.whatsapp-btn13{
+    background-color: #ac3378;
+    color: white;
+    width: 130px;
+    height: 28px;
+    border: none;
+    border-radius: 14px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.whatsapp-btn13:hover{
+    background-color: #c83f8c;
+}
+
+.blog-class{
+    text-decoration: none;
+}
+.jh>img{
+    margin-left: 120px;
+    height:120px;
+    width: 1200px;
+    margin-left: 200px;
+}
+
+/* Laptop view */
+@media screen and (min-width:769px) and (max-width:1025px){
+    .d1{
+        width:1800px;
+        display:flex;
+        flex-direction:column-reverse;
+        height:1600px;
+    }
+    .d17>img{
+        
+    
+    height: 1100px;
+    width: 1100px;
+    
+        
+        
+    }
+    .d17{
+        margin-left:300px;
+        
+        height:600px;
+        width:600px;
+
+
+    }
+    .hy{
+        font-size:75px;
+        font-weight:700;
+        padding-top:300px;
+    }
+    .p12{
+        font-size:30px;
+        width:900px;
+    }
+    .p13{
+        font-size:36px;
+        padding-left:420px;
+        width:1500px;
+        padding-top:50px;
+
+
+    }
+    .c{
+        height:300px;
+        padding-right:75px;
+        width:1600px;
+
+    }
+    .sz{
+        padding-left:300px;
+        font-size:60px;
+        width:1600px;
+    }
+    .uy>img{
+        height:38px;
+        width:50px;
+    }
+    .mr>img{
+        height:600px;
+        width:500px;
+    }
+    .iu{
+        font-size:36px;
+        
+        width:250px;
+        padding-right:30px;
+        padding-left:-70px;
+
+    }
+    .uy{
+        margin-left:-80px;
+        padding-right:40px;
+    }
+    .er1{
+        font-size:40px;
+        padding-left:350px;
+        width:1400px;
+        padding-top:30px;
+    }
+    .er2{
+        padding-left:200px;
+        width:1600px;
+        font-size:35px;
+
+    }
+    .mr>h3{
+        font-size:49px;
+    }
+    .mr>p{
+        font-size:30px;
+    }
+    .lk>img{
+        height:150px;
+        width:150px;
+    }
+    .jh>img{
+        height:350px;
+        width:1400px;
+        padding-right:50px;
+    }
+    .lk1{
+        font-size:32px;
+
+    }
+    .lk2{
+        font-size:28px;
+    }
+    .N12{
+        display:flex;
+        flex-direction:column;
+        height:1500px;
+        padding-top:0px;
+        width:1800px;
+
+    }
+    .n1{
+        font-size:40px;
+        padding-left:150px;
+    }
+    .n2{
+        font-size:55px;
+        width:1000px;
+        padding-left:150px;
+    }
+    .n3{
+        margin-left:300px;
+        margin-bottom:50px;
+    }
+    .I2{
+        height:280px;
+        width:680px;
+        margin-right:30px;
+    }
+    .I2>img{
+        height:100px;
+        width:100px;
+    }
+    .I2>p{
+        font-size:42px;
+    }
+    .oi{
+        padding-left:490px;
+        padding-top:50px;
+        font-size:45px;
+    }
+    .ty>img{
+        height:200px;
+    }
+    .tech-box{
+        width:1400px;
+        height:580px;
+        margin-left:100px;
+    }
+    .tech-h5{
+        font-size:45px;
+    }
+    .tech-p6{
+        font-size:36px;
+    }
+    .tech-bt1{
+        height:45px;
+        width:200px;
+        margin-right:5px;
+        font-size:20px;
+    }
+    .whatsapp-main0{
+        margin-top:30px;
+    }
+    .whatsapp-p15{
+        font-size:25px;
+    }
+    .whatsapp-p16{
+        font-size:60px;
+        width:500px;
+    }
+    .whatsapp-p17{
+        font-size:26px;
+    }
+    .whatsapp-main0{
+        margin-left:150px;
+    }
+    .whatsapp-img6{
+        height:400px;
+        width:500px;
+    }
+    .whatsapp-p11{
+        font-size:35px;
+    }
+    .whatsapp-p13{
+        font-size:35px;
+    }
+    .whatsapp-p8{
+        font-size:35px;
+    }
+    .whatsapp-main2{
+        margin-right:50px;
+    }
+    .whatsapp-main3{
+        margin-right:50px;
+    }
+    .whatsapp-p9{
+        font-size:23px;
+    }
+    .whatsapp-p12{
+        font-size:23px;
+    }
+    .whatsapp-p14{
+        font-size:23px;
+    }
+    .whatsapp-p12{
+        font-size:23px;
+    }
+    .whatsapp-btn13{
+        margin-left:-50px;
+    }
+
+}
+
+/* TABLET VIEW */
+@media screen and (min-width:426px) and (max-width:769px){
+    .d1{
+        width:1800px;
+        display:flex;
+        flex-direction:column-reverse;
+        height:1600px;
+    }
+    .d17>img{
+        
+    
+    height: 1100px;
+    width: 1100px;
+    
+        
+        
+    }
+    .d17{
+        margin-left:300px;
+        
+        height:600px;
+        width:600px;
+
+
+
+    }
+    .bl{
+        height:65px;
+        width:250px;
+        font-size:25px;
+    }
+    .hy{
+        font-size:82px;
+        font-weight:700;
+        padding-top:350px;
+    }
+    .p12{
+        font-size:42px;
+        width:900px;
+    }
+    .p13{
+        font-size:36px;
+        padding-left:420px;
+        width:1500px;
+        padding-top:50px;
+
+
+    }
+    .c{
+        height:300px;
+        padding-right:75px;
+        width:1600px;
+
+    }
+    .sz{
+        padding-left:300px;
+        font-size:60px;
+        width:1600px;
+    }
+    .uy>img{
+        height:38px;
+        width:50px;
+    }
+    .mr>img{
+        height:900px;
+        width:690px;
+    }
+    .iu{
+        font-size:36px;
+        
+        width:250px;
+        padding-right:30px;
+        padding-left:-70px;
+
+    }
+    .uy{
+        margin-left:-80px;
+        padding-right:40px;
+    }
+    .er1{
+        font-size:50px;
+        padding-left:350px;
+        width:1400px;
+        padding-top:30px;
+    }
+    .er2{
+        padding-left:200px;
+        width:1800px;
+        font-size:40px;
+
+    }
+    .mr>h3{
+        font-size:70px;
+        width:800px;
+    }
+    .mr>p{
+        font-size:42px;
+        width:800px;
+    }
+    .lk>img{
+        height:200px;
+        width:200px;
+    }
+    .jh>img{
+        height:350px;
+        width:1400px;
+        padding-right:50px;
+    }
+    .lk1{
+        font-size:36px;
+        width:250px;
+
+    }
+    .lk2{
+        font-size:32px;
+        width:250px;
+    }
+    .N12{
+        display:flex;
+        flex-direction:column;
+        height:1500px;
+        padding-top:0px;
+        width:1800px;
+
+    }
+    .n1{
+        font-size:50px;
+        padding-left:150px;
+    }
+    .n2{
+        font-size:62px;
+        width:1000px;
+        padding-left:150px;
+    }
+    .n3{
+        margin-left:300px;
+        margin-bottom:50px;
+        height:58px;
+        font-size:25px;
+
+    }
+    .I2{
+        height:280px;
+        width:680px;
+        margin-right:30px;
+    }
+    .I2>img{
+        height:100px;
+        width:100px;
+    }
+    .I2>p{
+        font-size:42px;
+    }
+    .oi{
+        padding-left:490px;
+        padding-top:50px;
+        font-size:45px;
+    }
+    .ty>img{
+        height:200px;
+    }
+    .tech-box{
+        width:1400px;
+        height:580px;
+        margin-left:100px;
+    }
+    .tech-h5{
+        font-size:45px;
+    }
+    .tech-p6{
+        font-size:36px;
+    }
+    .tech-bt1{
+        height:45px;
+        width:200px;
+        margin-right:5px;
+        font-size:20px;
+    }
+    .whatsapp-main0{
+        margin-top:30px;
+    }
+    .whatsapp-p15{
+        font-size:25px;
+    }
+    .whatsapp-p16{
+        font-size:60px;
+        width:500px;
+    }
+    .whatsapp-p17{
+        font-size:26px;
+    }
+    .whatsapp-main0{
+        margin-left:150px;
+    }
+    .whatsapp-img6{
+        height:400px;
+        width:500px;
+    }
+    .whatsapp-p11{
+        font-size:35px;
+    }
+    .whatsapp-p13{
+        font-size:35px;
+    }
+    .whatsapp-p8{
+        font-size:35px;
+    }
+    .whatsapp-main2{
+        margin-right:50px;
+    }
+    .whatsapp-main3{
+        margin-right:50px;
+    }
+    .whatsapp-p9{
+        font-size:23px;
+    }
+    .whatsapp-p12{
+        font-size:23px;
+    }
+    .whatsapp-p14{
+        font-size:23px;
+    }
+    .whatsapp-p12{
+        font-size:23px;
+    }
+    .whatsapp-btn13{
+        margin-left:-250px;
+        height:50px;
+
+    }
+    .mm{
+        display:flex;
+        flex-direction:column;
+        padding-left:400px;
+    }
+}

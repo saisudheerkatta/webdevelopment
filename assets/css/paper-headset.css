@@ -1,0 +1,1910 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.anchor-element{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/* Laptop View */
+
+@media screen and (min-width:769px) and (max-width:1025px) {
+    .headset-main{
+        flex-direction: column-reverse;
+        
+    margin-left: 20px;
+    
+   
+        
+    }
+
+    .headset-main1{flex-direction: column;}
+
+  .headset-main>.headset-sub2{
+        width: 1200px;
+    height: 800px;
+    background-size: 1000px 800px;
+
+   
+    }
+
+   
+
+    .headset-sub2>.headset-img1{
+        width: 1000px;
+        height: 1000px;
+        margin-left: 160px;
+        margin-top: -20px;
+        
+        
+        
+    }
+
+    .headset-main>.headset-sub1{
+       width: 1400px;
+        margin-bottom: 600px;
+
+        
+    }
+
+    .headset-sub1>.headset-p1{
+        font-size: 34px;
+        margin-top: 100px;
+        margin-left: 150px;
+        display: block;
+    }
+
+    .headset-sub1>.headset-h1{
+        font-size: 92px;
+        font-weight: 700;
+        width: 1100px;
+        margin-left: 150px;
+        display: block;
+    }
+
+
+   .headset-sub1>.headset-p2{
+        width: 1100px;
+        margin-left: 160px;
+        font-size: 34px;
+        margin-bottom: 20px;
+        
+    }
+
+    .headset-sub1>.headset-p3{
+        width: 1100px;
+        margin-left: 160px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .headset-buttons>.headset-btn4{
+        width: 230px;
+        margin-left: 160px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 10px;
+        
+    }
+
+    .headset-buttons>.headset-btn9{
+        width: 330px;
+        margin-left:30px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 10px;
+        
+    }
+
+    .headset-buttons>.headset-btn3{
+        width: 330px;
+        margin-left: 40px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 40px;
+        
+    }
+
+
+
+    .headset-omg> .headset-box{
+        flex-direction: column;
+        width: 1100px;
+        height: 650px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 140px;
+    }
+   
+
+    .headset-sub4>.headset-p4{
+        font-size: 56px;
+        width: 400px;
+        margin-top: 200px;
+    }
+
+    .headset-sub3>.headset-main{
+        margin-left: 500px;
+        margin-top: -340px;
+        
+    }
+
+    
+
+
+    
+    .headset-main>.headset-p5{
+        font-size: 30px;
+    }
+   
+    .headset-main>.headset-p22{
+        font-size: 30px;
+        margin-bottom: -76px;
+    }
+
+
+  .headset-sub3>.headset-ph{
+        margin-left: 510px;
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-py{
+        margin-left: 50px;
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-pos{
+        margin-left: 510px;
+        font-size: 30px;
+        
+    }
+
+    .headset-sub3>.headset-bar{
+        margin-left: 510px;
+        width: 460px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-btn13{
+        width: 150px;
+        height: 50px;
+        font-size: 26px;
+        border-radius: 25px;
+        margin-left: 820px;
+       margin-top: 50px;
+    }    
+    
+
+    .headset-ctr>.headset-box1{
+        width: 1100px;
+        height: 600px;
+        margin-left: 140px;
+    }
+
+    .headset-box1>.headset-p6{
+        font-size: 52px;
+        width: 500px;
+        text-align: center;
+        margin-left: -90px;
+        margin-top: 10px;
+    }
+
+    .headset-box1>.headset-p7{
+        font-size: 36px;
+        width: 700px;
+        
+        margin-left: -180px;
+        margin-top: 10px;
+    }
+
+    a>.headset-btn14{
+        font-size: 30px;
+        width: 260px;
+       height: 60px;
+       border-radius: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+       
+   .headset-pmain>.headset-p11{
+        font-size: 32px;
+        margin-left: 180px;
+    }
+
+    .headset-pmain>.headset-p12{
+        font-size: 68px;
+        margin-left: 180px;
+        width: 600px;
+        
+    }
+
+    .headset-pmain>.headset-p13{
+        font-size: 36px;
+        margin-left: 180px;
+        width: 1000px;
+    }
+
+    a>.headset-btn15{
+        font-size: 24px;
+        width: 250px;
+       height: 60px;
+       border-radius: 30px;
+        margin-left: 180px;
+       
+    }    
+
+
+    .headset-main2> .headset-class>.headset-p18{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 250px;
+    }
+
+    .headset-main2> .headset-class>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 250px;
+        width: 350px;
+    }
+
+   .headset-main2> .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 80px;
+    }
+   
+
+    .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 140px;
+    }
+
+    .headset-main3> .headset-class>.headset-p14{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 300px;
+    }
+
+    .headset-main4> .headset-class>.headset-p17{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 270px;
+    }
+
+    .headset-main4> .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 150px;
+    }
+
+    .headset-main4> .headset-class>.headset-p15{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 270px;
+    }
+
+    .headset-main4> .headset-class>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 270px;
+        width: 400px;
+    }
+
+    .headset-class>.headset-p14{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 250px;
+    }
+
+    .headset-class>.headset-p17{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 300px;
+    }
+
+    .headset-class>.headset-p15{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 300px;
+    }
+       
+    a>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 300px;
+        width: 400px;
+    }
+
+
+   .headset-main2> a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 920px;
+        margin-top: -52px;
+        width: 40px;
+        height: 40px;
+    }
+
+    a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 980px;
+        margin-top: -52px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/* Tablet View */
+
+
+@media screen and (min-width:426px) and (max-width:769px) {
+    .headset-main{
+        flex-direction: column-reverse;
+        
+    margin-left: 20px;
+    
+   
+        
+    }
+
+    .headset-main1{flex-direction: column;}
+
+  .headset-main>.headset-sub2{
+        width: 1200px;
+    height: 800px;
+    background-size: 1000px 800px;
+
+   
+    }
+
+   
+
+    .headset-sub2>.headset-img1{
+        width: 1000px;
+        height: 1000px;
+        margin-left: 160px;
+        margin-top: -20px;
+        
+        
+        
+    }
+
+    .headset-main>.headset-sub1{
+       width: 1400px;
+        margin-bottom: 600px;
+
+        
+    }
+
+    .headset-sub1>.headset-p1{
+        font-size: 34px;
+        margin-top: 100px;
+        margin-left: 150px;
+        display: block;
+    }
+
+    .headset-sub1>.headset-h1{
+        font-size: 92px;
+        font-weight: 700;
+        width: 1100px;
+        margin-left: 150px;
+        display: block;
+    }
+
+
+   .headset-sub1>.headset-p2{
+        width: 1100px;
+        margin-left: 160px;
+        font-size: 34px;
+        margin-bottom: 20px;
+        
+    }
+
+    .headset-sub1>.headset-p3{
+        width: 1100px;
+        margin-left: 160px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .headset-buttons>.headset-btn4{
+        width: 230px;
+        margin-left: 160px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 40px;
+        
+    }
+
+    .headset-buttons>.headset-btn9{
+        width: 330px;
+        margin-left:30px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 10px;
+        
+    }
+
+    .headset-buttons>.headset-btn3{
+        width: 250px;
+        margin-left: 30px;
+        font-size: 30px;
+        height: 60px;
+        margin-bottom: 40px;
+        
+    }
+
+    
+    .headset-omg> .headset-box{
+        flex-direction: column;
+        width: 1100px;
+        height: 650px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        margin-left: 140px;
+    }
+   
+
+    .headset-sub4>.headset-p4{
+        font-size: 56px;
+        width: 400px;
+        margin-top: 200px;
+    }
+
+    .headset-sub3>.headset-main{
+        margin-left: 500px;
+        margin-top: -340px;
+        
+    }
+
+    
+
+
+    
+    .headset-main>.headset-p5{
+        font-size: 30px;
+    }
+   
+    .headset-main>.headset-p22{
+        font-size: 30px;
+        margin-bottom: -76px;
+    }
+
+
+  .headset-sub3>.headset-ph{
+        margin-left: 510px;
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-py{
+        margin-left: 50px;
+        width: 200px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-pos{
+        margin-left: 510px;
+        font-size: 30px;
+        
+    }
+
+    .headset-sub3>.headset-bar{
+        margin-left: 510px;
+        width: 460px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-btn13{
+        width: 150px;
+        height: 50px;
+        font-size: 26px;
+        border-radius: 25px;
+        margin-left: 820px;
+       margin-top: 50px;
+    }    
+    
+
+    .headset-ctr>.headset-box1{
+        width: 1100px;
+        height: 600px;
+        margin-left: 140px;
+    }
+
+    .headset-box1>.headset-p6{
+        font-size: 52px;
+        width: 500px;
+        text-align: center;
+        margin-left: -90px;
+        margin-top: 10px;
+    }
+
+    .headset-box1>.headset-p7{
+        font-size: 36px;
+        width: 700px;
+        
+        margin-left: -180px;
+        margin-top: 10px;
+    }
+
+  a>.headset-btn14{
+        font-size: 30px;
+        width: 260px;
+       height: 60px;
+       border-radius: 30px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+       
+   .headset-pmain>.headset-p11{
+        font-size: 32px;
+        margin-left: 180px;
+    }
+
+    .headset-pmain>.headset-p12{
+        font-size: 68px;
+        margin-left: 180px;
+        width: 600px;
+        
+    }
+
+    .headset-pmain>.headset-p13{
+        font-size: 36px;
+        margin-left: 180px;
+        width: 1000px;
+    }
+
+    a>.headset-btn15{
+        font-size: 24px;
+        width: 250px;
+       height: 60px;
+       border-radius: 30px;
+        margin-left: 180px;
+       
+    }    
+
+
+    .headset-main2> .headset-class>.headset-p18{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 250px;
+    }
+
+    .headset-main2> .headset-class>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 250px;
+        width: 350px;
+    }
+
+   .headset-main2> .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 80px;
+    }
+   
+
+    .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 140px;
+    }
+
+    .headset-main3> .headset-class>.headset-p14{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 300px;
+    }
+
+    .headset-main4> .headset-class>.center-p17{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 270px;
+    }
+
+    .headset-main4> .headset-class>.headset-img4{
+        width: 1000px;
+        height: 900px;
+        margin-left: 150px;
+    }
+
+   
+
+    .headset-main4> .headset-class>.headset-p15{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 270px;
+    }
+
+    .headset-main4> .headset-class>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 270px;
+        width: 400px;
+    }
+
+    .headset-class>.headset-p14{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 250px;
+    }
+
+    .headset-class>.headset-p17{
+        font-size: 52px;
+        width: 800px;
+        margin-left: 300px;
+    }
+
+    .headset-class>.headset-p15{
+        font-size: 36px;
+        width: 800px;
+        margin-left: 300px;
+    }
+       
+    a>.headset-main1>.headset-p16{
+        font-size: 34px;
+        margin-left: 300px;
+        width: 400px;
+    }
+
+
+   .headset-main2> a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 920px;
+        margin-top: -52px;
+        width: 40px;
+        height: 40px;
+    }
+
+    a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 980px;
+        margin-top: -52px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+/* Mobile View */
+
+@media screen and (max-width:426px)  {
+    .headset-main{
+    flex-direction: column-reverse;
+    margin-left: 20px;
+   
+        
+    }
+
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+       }
+
+    .headset-main1{flex-direction: column;}
+
+  .headset-main>.headset-sub2{
+        width: 800px;
+    height: 600px;
+    background-size: 800px 800px;
+    background-position: left;
+    margin-left: -300px;
+
+   
+    }
+
+   
+
+    .headset-sub2>.headset-img1{
+        width: 460px;
+        height: 480px;
+        margin-left: 260px;
+        margin-top: -20px;
+        
+        
+        
+    }
+
+    .headset-main>.headset-sub1{
+       width: 1400px;
+        margin-bottom: 600px;
+
+        
+    }
+
+    .headset-sub1>.headset-p1{
+        font-size: 18px;
+        margin-top: -100px;
+        margin-left: 10px;
+        display: block;
+    }
+
+    .headset-sub1>.headset-h1{
+        font-size: 32px;
+        font-weight: 700;
+        width: 380px;
+        margin-left: 10px;
+        margin-top: -10px;
+        display: block;
+    }
+
+
+   .headset-sub1>.headset-p2{
+        width: 380px;
+        margin-left: 10px;
+        font-size: 22px;
+        margin-bottom: 20px;
+        
+    }
+
+    .headset-sub1>.headset-p3{
+        width: 380px;
+        margin-left: 10px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        
+    }
+
+    .headset-buttons{
+        width: 380px;
+    }
+
+    .headset-buttons>.headset-btn4{
+        width: 150px;
+        margin-left: 10px;
+        font-size: 18px;
+        height: 40px;
+        margin-bottom: 16px;
+        
+    }
+
+    .headset-buttons>.headset-btn9{
+        width: 190px;
+        margin-left:10px;
+        font-size: 18px;
+        height: 40px;
+        margin-bottom: 16px;
+        
+    }
+
+    .headset-buttons>.headset-btn3{
+        width: 140px;
+        margin-left:10px;
+        font-size: 18px;
+        height: 40px;
+        margin-bottom: 16px;
+        
+    }
+
+
+    .headset-omg> .headset-box{
+        flex-direction: column;
+        width: 400px;
+        height: 650px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+   
+
+    .headset-sub4>.headset-p4{
+        font-size: 36px;
+        width: 400px;
+        margin-top: 60px;
+    }
+
+    .headset-sub3>.headset-main{
+        margin-left: -30px;
+        margin-top: 40px;
+        
+    }
+
+    
+
+
+    
+    .headset-main>.headset-p5{
+        font-size: 20px;
+    }
+   
+    .headset-main>.headset-p22{
+        font-size: 20px;
+        margin-bottom: -63px;
+        margin-left: 200px;
+    }
+
+
+  .headset-sub3>.headset-ph{
+        margin-left: -22px;
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-py{
+        margin-left: 30px;
+        width: 160px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-pos{
+        margin-left: -16px;
+        font-size: 20px;
+        
+    }
+
+    .headset-sub3>.headset-bar{
+        margin-left: -20px;
+        width: 350px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .headset-sub3>.headset-btn13{
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 25px;
+        margin-left: 230px;
+       margin-top: 20px;
+    }    
+    
+
+    
+
+
+    .headset-ctr>.headset-box1{
+       width: 100px;
+        height: 600px;
+        margin-left: 10px;
+        padding-right: 0px;
+    }
+
+    .headset-box1>.headset-p6{
+        font-size: 40px;
+        width: 400px;
+        text-align: center;
+        margin-left: -400px;
+        margin-top: 10px;
+    }
+
+    .headset-box1>.headset-p7{
+        font-size: 36px;
+        width: 380px;
+        
+        margin-left: -390px;
+        margin-top: 10px;
+    }
+
+    a>.headset-btn14{
+        font-size: 24px;
+        width: 180px;
+       height: 50px;
+       border-radius: 30px;
+        margin-left: -280px;
+        margin-top: 10px;
+
+    }
+       
+   .headset-pmain>.headset-p11{
+        font-size: 26px;
+        margin-left: 40px;
+    }
+
+    .headset-pmain>.headset-p12{
+        font-size: 58px;
+        margin-left: 40px;
+        width: 600px;
+        
+    }
+
+    .headset-pmain>.headset-p13{
+        font-size: 32px;
+        margin-left: 40px;
+        width: 370px;
+    }
+
+    a>.headset-btn15{
+        font-size: 18px;
+        width: 160px;
+       height: 40px;
+       border-radius: 30px;
+        margin-left: 40px;
+       
+    }   
+    
+    
+    .headset-class>.headset-p14{
+        font-size: 28px;
+        width: 380px;
+        margin-left: -20px;
+    }
+
+    .headset-class>.headset-p17{
+        font-size: 28px;
+        width: 360px;
+        margin-left: 44px;
+    }
+
+    .headset-class>.headset-p15{
+        font-size: 22px;
+        width: 340px;
+        margin-left: 44px;
+    }
+       
+    a>.headset-main1>.headset-p16{
+        font-size: 22px;
+        margin-left: 42px;
+        width: 380px;
+    }
+
+
+   .headset-main2> a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 260px;
+        margin-top: -42px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .headset-main2> .headset-class>.headset-p18{
+        font-size: 22px;
+        width: 360px;
+        margin-left: -20px;
+    }
+
+    .headset-main2> .headset-class>.headset-main1>.headset-p16{
+        font-size: 22px;
+        margin-left: -20px;
+        width: 350px;
+    }
+
+   .headset-main2> .headset-class>.headset-img4{
+        width: 400px;
+        height: 390px;
+        margin-left: -80px;
+    }
+   
+
+    .headset-class>.headset-img4{
+        width: 400px;
+        height: 390px;
+        margin-left: -10px;
+    }
+
+    .headset-main3> .headset-class>.headset-p14{
+        font-size: 28px;
+        width: 380px;
+        margin-left: 50px;
+    }
+
+
+    .headset-main4> .headset-class>.headset-img4{
+        width: 400px;
+        height: 390px;
+        margin-left: -36px;
+    }
+
+    .headset-main4> .headset-class>.headset-p17{
+        font-size: 28px;
+        width: 330px;
+        margin-left: 28px;
+    }
+
+    .headset-main4> .headset-class>.headset-p15{
+        font-size: 22px;
+        width: 340px;
+        margin-left: 28px;
+    }
+
+    .headset-main4>.headset-class>.headset-main1>.headset-img5{
+       
+        margin-left: 288px;
+        margin-top: -42px;
+        width: 20px;
+        height: 20px;
+    }
+
+    
+
+    .headset-main4> .headset-class>.headset-main1>.headset-p16{
+        font-size: 22px;
+        margin-left: 26px;
+        width: 400px;
+    }
+
+    
+
+    a>.headset-main1>.headset-img5{
+        font-size: 30px;
+        margin-left: 320px;
+        margin-top: -42px;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+
+.headset-main{
+    display: flex;
+
+}
+
+.headset-class{
+    text-decoration: none;
+}
+
+.headset-main1{
+    display: flex;
+}
+
+.headset-main2{
+    margin-left: 80px;
+    width: 320px;
+}
+
+.headset-main3{
+    margin-left: 14px;
+    width: 320px;
+}
+
+.headset-main4{
+    margin-left: 36px;
+    width: 320px;
+}
+
+.headset-p1{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 36px;
+    margin-left: 310px;
+}
+
+.headset-h1{
+    margin-left: 310px;
+    margin-bottom: 12px;
+    color: #364152;
+    margin-top: 18px;
+    font-size: 36px;
+}
+
+.headset-p2{
+    color: #475467;
+    margin-left: 310px;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.headset-p3{
+    color: #475467;
+    margin-left: 310px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.headset-p4{
+    margin-top: 120px;
+    margin-left: 55px;
+    color: #364152; 
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.headset-p5{
+    font-size: 11px;
+    margin-left: 10px;
+    margin-top: 34px;
+    color: #344054;
+    font-weight: 500;
+}
+
+.headset-p22{
+    font-size: 11px;
+    margin-left: 270px;
+    margin-top: 34px;
+    color: #344054;
+    font-weight: 500;
+}
+
+.headset-p6{
+    margin-top: 70px;
+    margin-left: 48px;
+    color: #364152; 
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.headset-p7{
+    color: #475467; 
+    margin-top: 14px;
+    text-align: center ;
+}
+
+.headset-p11{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+}
+
+.headset-p12{
+    font-size: 28px;
+    margin-left: 80px;
+    font-weight: 600;
+    margin-right: 1100px;
+    color: #101828;
+}
+
+.headset-p13{
+    color: #475467;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-left: 80px;
+}
+
+.headset-p14{
+    font-size: 19px;
+    padding-right: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #101828;
+}
+
+.headset-p15{
+    color: #475467;
+    font-size: 13px;
+    margin-bottom: 14px;
+    padding-right: 16px;
+}
+
+.headset-p16{
+    color: #9d2f6e;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 1px;
+}
+
+.headset-p17{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    margin-top: 1px;
+    color: #101828;
+}
+
+.headset-p18{
+    color: #475467;
+    font-size: 13px;
+    padding-right: 26px;
+    margin-bottom: 12px;
+    margin-top: 37px;
+}
+
+.headset-p19{
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    color: #101828;
+}
+
+.headset-p20{
+    color: #475467;
+    font-size: 13px;
+    padding-right: 5px;
+    margin-bottom: 33px;
+}
+
+.headset-ph{
+    width: 312px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 4px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+   
+}
+.headset-ph:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.headset-py{
+    width: 312px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 4px;
+    padding-left: 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    border: rgba(159,159,255, 0.6) 1px solid;   
+}
+.headset-py:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.headset-sub1{
+    width: 2000px;
+    height: 600px;
+}
+
+.headset-sub2{
+    width: 2000px;
+    height: 600px;
+    margin-left: 20px;
+    background-image: url(/assets/uploads/images/register-ltr-QNX3I3I6.png);
+    background-position-x: right;
+    background-size: 1160px 600px;
+    background-repeat: no-repeat;
+    background-position-y: top;
+
+}
+
+.headset-sub3{
+    margin-left: 50px;
+}
+
+.headset-sub4{
+    width: 1200px;
+}
+
+.headset-box{
+        display: flex;
+        background-color: rgba(246, 210, 230, 0.2);
+        width: 1390px;
+        height: 370px;
+        margin-left: 80px;
+        margin-top: 15px;
+        border-radius: 15px;
+}
+
+.headset-box1{
+
+        background-color: rgba(246, 210, 230, 0.2);
+        width: 1390px;
+        height: 290px;
+        margin-left: 80px;
+        margin-top: 15px;
+        border-radius: 15px;
+        padding-left: 400px;
+        padding-right: 360px;
+        padding-top: 10px;
+}
+
+.headset-pos{
+    font-size: 11px;
+    margin-left: 10px;
+    color: #344054;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.headset-bar{
+    margin-left: 12px;
+    width: 632px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 4px;
+    border-radius: 3px;
+    padding-left: 8px;
+    border: rgba(159,159,255, 0.6) 1px solid;
+}
+.headset-bar:focus{
+    outline: #ac3378 10px;
+    border: #ac3378 3px solid;
+    }
+
+.headset-img1{
+    width: 380px;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.headset-img4{
+    width: 298px;
+    height: 280px;
+
+}
+
+.headset-img5{
+    width: 13px;
+    height: 15px;
+    margin-left: 11px;
+
+}
+
+.headset-btn1{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:100px;
+    height: 28px;
+    margin-left: 310px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    border-radius: 24px;
+    margin-top: 11px;
+}
+
+.headset-btn2{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:138px;
+    height: 28px;
+    margin-left: 4px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 3px;
+    margin-top: 11px;
+}
+
+.headset-btn3{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:100px;
+    height: 28px;
+    margin-left: 4px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 3px;
+    margin-top: 11px;
+}
+
+.headset-btn4{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:120px;
+    height: 28px;
+    margin-left: 310px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 3px;
+    margin-top: 11px;
+}
+
+.headset-btn5{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:150px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn6{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:140px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.mastering-btn7{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:90px;
+    height: 30px;
+    margin-left: 310px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn8{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:150px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn9{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:120px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn10{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:150px;
+    height: 30px;
+    margin-left: 310px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn11{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:60px;
+    height: 30px;
+    margin-left: 5px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn12{
+    color: #9d2f6e;
+    background-color: #fbf4f9;
+    border: none;
+    width:160px;
+    height: 34px;
+    margin-left: 310px;
+    font-size: 13px;
+    border-radius: 24px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.headset-btn13{
+        width: 100px;
+        background-color: #ac3378;
+        color: white;
+        margin-top: 20px;
+        margin-left: 560px;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        border: none;
+        width: 90px;
+        height: 30px;
+        font-weight:600;
+}
+
+.headset-btn13:hover{
+    background-color: #ca3c8c;
+}
+
+.headset-btn15:hover{
+    background-color: #ca3c8c;
+}
+
+.headset-btn14{
+    width: 110px;
+    background-color: #ac3378;
+    color: white;
+    margin-top: 10px;
+    margin-left: 250px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border: none;
+    height: 30px;
+    font-weight:600;
+}
+
+.headset-btn14:hover{
+    background-color: #ca3c8c;
+}
+
+.headset-btn15{
+    background-color: #ac3378;
+    color: white;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 18px;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 7px;
+    
+}
+
+
+
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#drop-item{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right:25px;
+    color:rgb(29, 28, 28);
+    font-weight:500;
+    font-size:18px;
+    text-decoration:none;
+    list-style-type:none;
+    
+
+}
+.dropdown-item{
+    padding:10px;
+    margin-right:2px;
+}
+
+.first-div{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .first-div{
+        margin-left:0px;
+        
+    }
+}
+.second-div{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .second-div{
+        display:none;
+        margin-left:5px;
+         
+    }
+}
+
+.eng-drop{
+    display:flex;
+    flex-direction:row;
+    
+    
+}
+.image-part{
+    margin-left:25px;
+}
+@media screen and (max-width:426px){
+    .image-part{
+        height:80px;
+        width:100px;
+        margin-left:10px;
+    }
+}
+    
+
+.flag-image{
+    height:40px;
+    width:40px;
+    padding-right:10px;
+}
+.english-name{
+    padding-top:10px;
+    font-size:15px;
+}
+.second-part{
+    margin-right:100px;
+}
+@media screen and (max-width:426px){
+    .second-part{
+        margin-right:20px;
+    }
+}
+.nav-1-div{
+    display:flex;
+    flex-direction: row;
+    
+    margin-left:40px;
+    margin-top:20px;
+    list-style-type:none;
+}
+@media screen and (max-width:426px){
+    .nav-1-div{
+        margin-left:5px;
+    }
+}
+@media screen and (max-width:426px){
+    .nav-1-div>li>a{
+        display:none;
+    }
+}
+.one-con{
+    display:flex;
+    flex-direction:row;
+    
+    height:200px;
+}
+.two-con{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:25px;
+    height:400px;
+}
+.three-con{
+    display:flex;
+    flex-direction:row;
+    padding-bottom:25px;
+    height:300px;
+}
+.product-container{
+    border:1px solid rgba(137, 133, 133, 0.447);
+    border-radius:15px;
+    padding:15px;
+    text-align:center;
+}
+.product-image{
+    height:230px;
+    width:250px;
+}
+.product-name{
+    font-size:20px;
+    font-weight:600;
+    color:black;
+    font-family: "Roboto";
+}
+.product-para{
+    font-size:14px;
+    color:rgb(140, 139, 139);
+
+}
+#color{
+    color:rgb(228, 69, 154);
+    padding-bottom:20px;
+    font-weight:500;
+    font-size:20px;
+}
+#color-1{
+    font-weight:500;
+    color:black;
+    padding-bottom:25px;
+    font-size:15px;
+
+}
+.nav-btn{
+    color:#ffffff;
+    background-color:purple;
+    border-radius:20px;
+    border-width:0px;
+    padding:10px;
+    height:45px;
+    width:170px;
+    margin-left:600px;
+}
+@media screen and (max-width:426px){
+    .nav-btn{
+        margin-left:150px;
+        height:35px;
+        width:100px;
+        padding-bottom:20px;
+        margin-bottom:25px;
+        
+        
+    }
+}
+.nav-line{
+    color:rgba(161, 159, 159, 0.87);
+    
+}
+@media screen and (max-width:426px){
+    .nav-line{
+        display:none;
+    }
+}
+.footer-container{
+    background-color:rgb(21, 38, 38);
+    background-size:cover;
+    height: 800px;
+    
+
+}
+@media screen and (max-width:426px){
+    .footer-container{
+    
+        height:2200px;
+     
+
+    }
+    
+    
+}
+@media screen and (min-width:426px) and (max-width:769px){
+    .footer-container{
+        width:1400px;
+    }
+    .second-div>ul>li>a{
+        font-size:30px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1025px){
+    .footer-container{
+        width:1410px;
+    }
+}
+.stay-header{
+    color:white;
+    font-weight:500;
+    font-size:30px;
+    height:50vh;
+    text-align:center;
+    
+    
+}
+
+.footer-con>h1{
+color: #ffffff;
+text-align:center;
+padding-top:30px;
+
+
+}
+.footer-con>input{
+    margin-left: 600px;
+    
+    padding:8px;
+    border-radius:20px;
+    border-width:0px;
+
+}
+@media screen and (max-width:426px){
+    .footer-con>input{
+        margin-left:0px;
+    }
+}
+.footer-con>button{
+    background-color:rgb(195, 43, 226);
+    color:#ffffff;
+    margin-left:15px;
+    border-width:0px;
+    border-radius:20px;
+    padding:10px;
+}
+.list-container{
+    display:flex;
+    color:#ffffff;
+    padding:20px;
+}
+@media screen and (max-width:426px){
+    .list-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-left:0px;
+    }
+}
+.unorder-list{
+    list-style-type:none;
+    padding-bottom:20px;
+    
+}
+@media screen and (max-width:426px){
+    .unorder-list{
+        align-items:center;
+        padding-right:120px;
+    }
+}
+.unlist-item{
+   padding-bottom:15px;
+   font-size:16px;
+}
+.unlist-item:hover{
+    color:rgb(247, 36, 173);
+}
+.top-list-item{
+    padding-bottom:18px;
+    font-size:22px;
+    font-weight:500;
+}
+
+.hr-line{
+    margin-left:50px;
+    margin-right:50px;
+    color:rgb(203, 199, 199);
+}
+@media screen and (max-width:426px){
+    .hr-line{
+        margin-left:5px;
+        margin-right:5px;
+    }
+}
+.last-logo{
+    padding:45px;
+}
+@media screen and (max-width:426px){
+    .last-logo{
+        padding:5px;
+    }
+}
+.last-con{
+    display:flex;
+    color:#ffffff;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+
+
+}
+@media screen and (max-width:426px){
+    .last-con{
+        display:flex;
+        flex-direction:column;
+        margin-left:5px;
+        margin-right:5px;
+
+    }
+}
+.last-class{
+    margin-left:30px;
+}
+@media screen and (max-width:426px){
+    .last-class{
+        margin-left:10px;
+    }
+}
+
+
+
+/* Laptop View */
+@media screen and (min-width:426px) and (max-width:1026px){
+
+}
